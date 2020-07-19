@@ -1,6 +1,11 @@
 using System;
 
-public  bool ChildSum(Node temp) {
+
+class ChildSum
+
+{
+
+public  bool Childsum(Node temp) {
             
             int l = 0;
             int r = 0;
@@ -19,7 +24,7 @@ public  bool ChildSum(Node temp) {
             
             
             if ((temp.val == (l + r))
-                && (ChildSum(temp.left)) && (ChildSum(temp.right))){
+                && (Childsum(temp.left)) && (Childsum(temp.right))){
                     return true;
                 }
 
@@ -27,4 +32,6 @@ public  bool ChildSum(Node temp) {
 
 
         }
+
+}
     
