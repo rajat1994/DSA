@@ -30,13 +30,21 @@ namespace Trees
 
             root.right.right =new Node(6);
 
-           
+            root.left.left.left = new Node(10);
 
-          
+            root.left.left.right = new Node(11);
+
+             root.left.left.left.left = new Node(12);
+
+            root.left.left.left.right = new Node(13);
 
            
 
         }
+
+
+
+      
 
 
         
