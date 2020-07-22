@@ -11,8 +11,10 @@ namespace Trees
 
 
 
-       public static Node x = null;
+      
         public static Stack s = new Stack();
+
+       
         static void Main(string[] args)
         {
 
@@ -28,13 +30,15 @@ namespace Trees
 
             root.right.right =new Node(6);
 
-           
+          
 
            
-
 
         }
 
+
+
+        
 
 
 
