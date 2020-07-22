@@ -30,6 +30,8 @@ namespace Trees
 
             root.right.right =new Node(6);
 
+           
+
           
 
            
@@ -37,11 +39,7 @@ namespace Trees
         }
 
 
-
         
-
-
-
 
         
 }
