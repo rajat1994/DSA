@@ -1,18 +1,17 @@
 class SumTree {
 
-      static int sum = 0;
+      
       public static int SumofNodes(Node root) {
 
             if (root == null) {
                 return 0;
             }
 
-            SumofNodes(root.left);
-            sum = sum + root.val;
-            SumofNodes(root.right);
+            
 
-
-            return sum;
+            return root.val+SumofNodes(root.left)+SumofNodes(root.right);
+                
+           
 
 
         }
@@ -29,19 +28,17 @@ class SumTree {
 
             if (root.left !=null ) {
                 l= SumofNodes(root.left);
-                sum=  0;
+               
                
             }
 
             if (root.right != null) {
                 r = SumofNodes(root.right);
-                sum=0;
+                
                 
             }
 
             if ((root.val == l + r)&& (Sumtree(root.left)) && (Sumtree(root.right))) {
-
-                sum =0;
                 
                 return true;
             }
