@@ -39,18 +39,13 @@ namespace Trees
             root.left.left.left.right = new Node(13);
 
 
-           
 
-           
-
+        
         }
 
 
 
-
-      
-
-
+       
         
 
         
