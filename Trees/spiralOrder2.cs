@@ -14,6 +14,8 @@ class SpiralOrder2 {
 
            Node curr =  root;
 
+           
+
            s1.Push(curr);
 
            while (s1.Count> 0 || s2.Count> 0){
