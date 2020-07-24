@@ -6,13 +6,15 @@ using System.Collections.Generic;
 
 namespace Trees
 {
-    class Program
+    public class Program
     {
 
 
 
        
         public static Stack s = new Stack();
+
+      
 
        
         static void Main(string[] args)
@@ -23,22 +25,26 @@ namespace Trees
             root.left = new Node(4);
 
             root.left.left = new Node(3);
+             root.left.left.left = new Node(5);
+             root.left.left.right = new Node(16);
 
-            root.left.right = new Node(6);
-
-            root.left.right.left = new Node(68);
-
-            root.left.right.right = new Node(1);
-
+           
             root.right = new Node(17);
 
             root.right.right =new Node(22);
 
-            root.right.right.right =new Node(20);
+            root.right.right.left = new Node(35);
+
+            root.right.right.right = new Node(19);
+
+           
 
         
         
         }
+
+
+        
 
 
         
