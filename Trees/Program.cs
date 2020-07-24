@@ -11,7 +11,7 @@ namespace Trees
 
 
 
-      
+       
         public static Stack s = new Stack();
 
        
@@ -36,21 +36,15 @@ namespace Trees
 
             root.right.right.right =new Node(20);
 
-
+        
         
         }
 
 
-
-         
-
-
-
         
 
 
-       
-        
+     
 
         
 }
