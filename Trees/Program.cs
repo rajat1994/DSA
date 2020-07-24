@@ -20,27 +20,30 @@ namespace Trees
 
             Node root = new Node(9);
 
-            root.left = new Node(2);
+            root.left = new Node(4);
 
-            root.left.left = new Node(4);
+            root.left.left = new Node(3);
 
-            root.left.right = new Node(5);
+            root.left.right = new Node(6);
 
-            root.right = new Node(3);
+            root.left.right.left = new Node(68);
 
-            root.right.right =new Node(6);
+            root.left.right.right = new Node(1);
 
-            root.left.left.left = new Node(10);
+            root.right = new Node(17);
 
-            root.left.left.right = new Node(11);
+            root.right.right =new Node(22);
 
-             root.left.left.left.left = new Node(12);
-
-            root.left.left.left.right = new Node(13);
+            root.right.right.right =new Node(20);
 
 
         
         }
+
+
+
+         
+
 
 
         
