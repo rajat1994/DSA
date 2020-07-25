@@ -1,51 +1,14 @@
-﻿using System;
-using System.Collections;
-using System.Linq;
-using System.Collections.Generic;
+using System;
 
 
-namespace Trees
-{
-    public class Program
-    {
+class CheckPerfectBinaryTree {
 
 
+      public static Node rt = null;
 
-       
-        public static Stack s = new Stack();
+      // rt = root;
 
-        public static Node rt = null;
-
-      
-
-       
-        public static void Main(string[] args)
-        {
-
-            Node root = new Node(5);
-
-            root.left = new Node(1);
-
-            root.left.left = new Node(3);
-
-            root.left.right = new Node(11);
-
-            root.right = new Node(6);
-
-            root.right.left = new Node(7);
-
-            root.right.right = new Node(4);
-
-            rt = root;
-            int h =  Height(root);
-
-            Console.WriteLine(CheckPerfectBinaryTree(root, h));
-
-      
-        }
-
-
-        public static int Height(Node root) {
+     public static int Height(Node root) {
             if (root == null){
                 return 0;
             }
@@ -54,7 +17,7 @@ namespace Trees
         }
 
 
-        public static bool CheckPerfectBinaryTree (Node root, int h) {
+        public static bool CheckPerfectBinarytree (Node root, int h) {
 
             if (root == null) {
                 return false;
@@ -80,7 +43,7 @@ namespace Trees
              
 
 
-            return CheckPerfectBinaryTree(root.right,h) && CheckPerfectBinaryTree(root.left,h);
+            return CheckPerfectBinarytree(root.right,h) && CheckPerfectBinarytree(root.left,h);
 
 
 
@@ -101,11 +64,5 @@ namespace Trees
         }
        
 
-
-        
-  
-
-        
-}
 
 }
