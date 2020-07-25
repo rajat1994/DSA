@@ -17,40 +17,30 @@ namespace Trees
       
 
        
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
 
-            Node root = new Node(9);
+            Node root = new Node(5);
 
-            root.left = new Node(4);
+            root.left = new Node(1);
 
             root.left.left = new Node(3);
-             root.left.left.left = new Node(5);
-             root.left.left.right = new Node(16);
 
-           
-            root.right = new Node(17);
+            root.right = new Node(6);
 
-            root.right.right =new Node(22);
+            root.right.left = new Node(7);
 
-            root.right.right.left = new Node(35);
+            root.right.right = new Node(4);
 
-            root.right.right.right = new Node(19);
-
-           
-
+    
         
         
         }
+       
 
 
         
-
-
-        
-
-
-     
+  
 
         
 }
