@@ -20,7 +20,7 @@ class CheckPerfectBinaryTree {
         public static bool CheckPerfectBinarytree (Node root, int h) {
 
             if (root == null) {
-                return false;
+                return true;
             }
 
 
