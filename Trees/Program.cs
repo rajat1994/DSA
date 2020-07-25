@@ -25,15 +25,17 @@ namespace Trees
 
             root.left = new Node(1);
 
-            root.left.left = new Node(3);
+           root.left.left = new Node(3);
 
-            root.left.right = new Node(11);
+           root.left.right = new Node(11);
 
             root.right = new Node(6);
 
             root.right.left = new Node(7);
 
-            root.right.right = new Node(4);
+           root.right.right = new Node(4);
+
+           
 
            
 
