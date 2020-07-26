@@ -37,12 +37,21 @@ namespace Trees
 
            root.right.right = new Node(4);
 
+
+           List<int> ls = new List<int>();
+
+        
+
         
 
 
       
         }
 
+
+
+       
+        
 
 
        
