@@ -35,18 +35,10 @@ namespace Trees
 
            root.right.right = new Node(4);
 
-           
-
-           
 
       
         }
 
-
-       
-
-        
-  
 
         
 }
