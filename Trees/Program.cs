@@ -38,6 +38,8 @@ namespace Trees
            root.right.right = new Node(4);
 
             root.right.right.right = new Node(90);
+
+            
  
          
 
@@ -48,6 +50,8 @@ namespace Trees
       
         }
 
+
+       
 
        
 
