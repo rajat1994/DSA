@@ -19,7 +19,7 @@ namespace Trees
        
       
 
-       
+       //public static int max =0;
         public static void Main(string[] args)
         {
 
@@ -37,24 +37,17 @@ namespace Trees
 
            root.right.right = new Node(4);
 
+            root.right.right.right = new Node(90);
 
-           List<int> ls = new List<int>();
+           
 
         
 
-        
-
-
+    
       
         }
 
 
-
-       
-        
-
-
-       
 
         
 }
