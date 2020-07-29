@@ -11,8 +11,7 @@ class SumTree {
 
             return root.val+SumofNodes(root.left)+SumofNodes(root.right);
                 
-           
-
+        
 
         }
 
